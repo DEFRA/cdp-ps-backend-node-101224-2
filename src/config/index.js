@@ -30,7 +30,7 @@ const config = convict({
   serviceName: {
     doc: 'Api Service Name',
     format: String,
-    default: 'cdp-node-backend-template'
+    default: 'cdp-ps-backend-node-101224-2'
   },
   root: {
     doc: 'Project root',
@@ -88,7 +88,7 @@ const config = convict({
   mongoDatabase: {
     doc: 'database for mongodb',
     format: String,
-    default: 'cdp-node-backend-template',
+    default: 'cdp-ps-backend-node-101224-2',
     env: 'MONGO_DATABASE'
   },
   httpProxy: {
